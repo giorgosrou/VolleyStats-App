@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+
+        <!--Kill Button-->
+        <Button
+            android:id="@+id/kill_button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="#673AB7"
+            android:textSize="12sp"
+            android:layout_margin="2sp"
+            android:text="Kill"/>
+
+        <!--Continue Button-->
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="#673AB7"
+            android:textSize="12sp"
+            android:layout_margin="2sp"
+            android:text="Continue"/>
+
+        <!--Error Unforced Button-->
+        <Button
+            android:id="@+id/error_unforced_button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="#673AB7"
+            android:textSize="12sp"
+            android:layout_margin="2sp"
+            android:text="Error Unforced"/>
+
+        <!--Error Blocked Button-->
+        <Button
+            android:id="@+id/error_blocked_button"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:background="#673AB7"
+            android:textSize="12sp"
+            android:layout_margin="2sp"
+            android:text="Error Blocked"/>
+
+
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
